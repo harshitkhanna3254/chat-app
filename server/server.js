@@ -1,8 +1,10 @@
 const express = require('express');
 const path = require('path');
 
+console.log(__dirname)
+
 const port = process.env.PORT || 3000;
-publicPath = path.join(__dirname + '/../public');
+publicPath = path.join(__dirname, '../public');
 
 var app = express();
 
